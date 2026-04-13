@@ -1,0 +1,58 @@
+/* Configuração Geral */
+body {
+    background-color: #050505;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 380px;
+    background: #111;
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid #00d4ff; /* Azul Elétrico */
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+    text-align: center;
+}
+
+/* Cards de Informação */
+.card-info {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    border-bottom: 3px solid #00d4ff;
+}
+
+.vencimento-txt {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00d4ff;
+    text-shadow: 0 0 8px rgba(0, 212, 255, 0.4);
+}
+
+/* Botão de Pagamento */
+.btn-pix {
+    background: #00d4ff;
+    color: #000;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-pix:hover {
+    background: #00b8e6;
+    box-shadow: 0 0 15px #00d4ff;
+}
